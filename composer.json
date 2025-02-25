@@ -1,0 +1,24 @@
+{
+    "name": "ik/smartsmush",
+    "description": "SmartSmush - The best WordPress image optimization plugin.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Ibrahim Khalil",
+            "email": "ibrahimkholil122@gmail.com",
+            "homepage": "https://yourwebsite.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SmartSmush\\": "includes/classes/"
+        }
+    },
+    "extra": {
+        "installer-name": "smartsmush"
+    }
+}
